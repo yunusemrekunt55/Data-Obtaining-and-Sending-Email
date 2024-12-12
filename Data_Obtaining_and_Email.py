@@ -34,9 +34,9 @@ def check_announcements():
 
 # E-posta gönderen fonksiyon
 def send_email(new_announcements):
-    sender_email = "beyy58097@gmail.com"  # Gönderen e-posta adresi
-    sender_password = "uico ihqn bnsc ocds"      # E-posta adresi şifresi
-    recipient_email = "yunusemrekunt@posta.mu.edu.tr"  # Alıcı e-posta adresi
+    sender_email = "@gmail.com"  # Gönderen e-posta adresi
+    sender_password = "PASSWORD"      # E-posta adresi şifresi
+    recipient_email = "@gmail.com"  # Alıcı e-posta adresi
 
     subject = "Yeni Duyuru(lar) Var!"
     body = "Yeni duyurular:\n\n" + "\n".join(new_announcements)
