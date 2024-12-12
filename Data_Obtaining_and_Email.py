@@ -13,7 +13,7 @@ previous_announcements = []
 # Web sitesinden duyuruları kontrol eden fonksiyon
 def check_announcements():
     global previous_announcements
-    url = "https://ee.mu.edu.tr/"  # Kendi URL'nizi buraya yazın
+    url = "https://....../"  # Kendi URL'nizi buraya yazın
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
 
